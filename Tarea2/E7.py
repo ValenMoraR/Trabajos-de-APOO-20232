@@ -37,8 +37,6 @@ class CuentaBancaria:
         print(f"Propietarios: {', '.join(self.propietarios)}")
         print(f"Saldo actual: ${self.balance}")
 
-
-# Ejemplo de uso
 cuenta = CuentaBancaria("12345", ["Juan", "María"],5000)
 cuenta.mostrar_detalles()
 cuenta.depositar(500)
