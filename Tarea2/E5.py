@@ -20,7 +20,6 @@ class Circulo:
         distancia = math.sqrt((punto[0] - self.centro[0]) ** 2 + (punto[1] - self.centro[1]) ** 2)
         return distancia <= self.radio
 
-# Ejemplo de uso
 centro = (0, 0)
 radio = 5
 circulo = Circulo(centro, radio)
